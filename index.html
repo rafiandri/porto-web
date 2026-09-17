@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MyPortofolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Skip to content -->
+  <a class="skip-link" href="#main">Lewati ke konten</a>
+
+  <!-- Navbar -->
+  <header class="header" id="top">
+    <nav class="nav container">
+      <a class="brand" href="#top">
+        <span class="brand-dot"></span>
+        <span>My Portofolio</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">
+        ☰
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#projects">Experience</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+
+        <li class="nav-darkmode">
+          <button class="theme-btn" id="themeBtn" aria-label="Ganti tema">
+            🌙 <span class="theme-label">Dark</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main id="main">
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <!-- <p class="eyebrow">Haii Guys </p> -->
+          <h1 class="hero-title">
+            Welcome to <span class="accent">My Portfolio.</span>
+            <br />
+            I am a back-end developer passionate about building <span class="gradient-text"> structured, secure</span> & <span class="gradient-text"> reliable systems</span>.
+          </h1>
+          <p class="hero-desc">
+            I enjoy transforming ideas into applications that not only run smoothly but also maintain a well-maintained performance and architecture. Let's get to know more about my journey.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">See more &raquo;</a>
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <strong>2+ years</strong>
+              <span>Work Experience</span>
+            </div>
+            <div class="stat">
+              <strong>10+</strong>
+              <span>Skills</span>
+            </div>
+            <div class="stat">
+              <strong>Junior</strong>
+              <span>Programmer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="profile-card">
+            <div class="avatar" aria-hidden="true">
+              <!-- avatar placeholder -->
+              <span class="avatar-initials"><img class="avatar" src="./image/myprof.jpeg" alt=""></span>
+            </div>
+
+            <div class="profile-meta">
+              <h3 class="profile-name">Rafie Andriansyah</h3>
+              <p class="profile-role">I am developing skills to work in the sector :</p>
+            </div>
+
+            <div class="profile-badges">
+              <span class="badge">Web Developer</span>
+              <span class="badge">Data Analyst</span>
+              <span class="badge">Document Controller</span>
+              <span class="badge">Drafter</span>
+            </div>
+
+            <div class="profile-links">
+              <a href="https://github.com/rafiandri" class="icon-link" aria-label="GitHub"><img class="icon-link" src="https://img.icons8.com/fluency/48/github.png" alt="Logo GitHub"></a>
+              <a href="https://www.linkedin.com/in/rafiandrii" class="icon-link" aria-label="LinkedIn"><img class="icon-link" src="https://img.icons8.com/color/48/linkedin.png" alt="Logo LinkedIn"></a>
+              <a href="https://www.instagram.com/rafiandrii" class="icon-link" aria-label="Instagram"><img class="icon-link" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Logo Instagram"></a>
+              <a class="badge">Open to work 🚀</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About me</h2>
+          <p>a short story about me.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <!-- <h3>I am</h3> -->
+            <ul class="list">
+              <p>I am a graduate of SMK 17 Agustus   1945 Surabaya majoring in software engineering. I have an internship experience at a software house called PT Redbuzz Mediatama for 3 months as a back-end developer. I have also worked on a freelance project managing the Widya Mandira University website based on Python, Java Script & Wordpress. After completing my freelance work, I worked in the telecommunications sector, namely at the company PT YPTT Solutions Indonesia as a document controller who managed the Fiberstar project in East Java and Central Java for 1 years.</p>
+            </ul>
+          </div>
+
+          <!-- <div class="card">
+            <h3>Skill Utama</h3>
+            <div class="meter">
+              <div class="meter-row">
+                <span>HTML</span>
+                <div class="bar"><span style="width: 92%"></span></div>
+              </div>
+              <div class="meter-row">
+                <span>CSS</span>
+                <div class="bar"><span style="width: 90%"></span></div>
+              </div>
+              <div class="meter-row">
+                <span>JavaScript</span>
+                <div class="bar"><span style="width: 85%"></span></div>
+              </div>
+              <div class="meter-row">
+                <span>UI/UX</span>
+                <div class="bar"><span style="width: 80%"></span></div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- experience -->
+    <section class="section alt" id="projects">
+      <div class="container">
+        <div class="section-title">
+          <h2>Experience</h2>
+          <p class="muted">Technology and Information Sector</p>
+        </div>
+
+        <div class="projects-grid" role="list">
+          <article class="project-card" role="listitem">
+            <div class="project-top">
+              <span class="project-tag">Internship - Full Time</span>
+              <span class="project-icon">
+                <img src="https://img.icons8.com/pulsar-gradient/48/internship.png" width="30" alt="Logo Intern">
+              </span>
+            </div>
+            <h3>PT Redbuzz Mediatama</h3>
+            <p class="period">January - April 2023</p>
+            <p class="muted">
+              as a Back End Developer who focuses on the Laravel framework and implementing API usage in E-commerce projects.
+            </p>
+          </article>
+
+          <article class="project-card" role="listitem">
+            <div class="project-top">
+              <span class="project-tag">Freelance</span>
+              <span class="project-icon">
+                <img src="https://img.icons8.com/external-sbts2018-flat-sbts2018/58/external-freelance-work-from-home-sbts2018-flat-sbts2018.png" width="35" alt="Logo Freelance">
+              </span>
+            </div>
+            <h3>Junior Programmer</h3>
+            <p class="period">March - August 2024</p>
+            <p class="muted">
+              support managing and backing up Widya Mandira University data to create a new web display using ERP Next, Python and Java Script.
+            </p>
+          </article>
+
+          <article class="project-card" role="listitem">
+            <div class="project-top">
+              <span class="project-tag">Work - Full Time</span>
+              <span class="project-icon">
+                <img src="https://img.icons8.com/bubbles/50/office.png" width="40" alt="Logo Work">
+              </span>
+            </div>
+            <h3>PT YPTT SOLUTIONS INDONESIA</h3>
+            <p class="period">April 2025 - Juli 2026</p>
+            <p class="muted">
+              as a document controller in the telecommunications sector who manages all document requirements for the closing of the Fiberstar project in the East Java and Central Java areas
+            </p>
+          </article>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="section-title">
+          <p class="muted">Food & Beverages Sector</p>
+        </div>
+
+        <div class="projects-grid" role="list">
+          <article class="project-card" role="listitem">
+            <div class="project-top">
+              <span class="project-tag">Work - Full Time</span>
+              <span class="project-icon">
+                <img src="https://img.icons8.com/dusk/64/waiter.png" width="35" alt="Logo Work">
+              </span>
+            </div>
+            <h3>Fatty Way Barbeque & Smoke House</h3>
+            <p class="period">Juni - Desember 2024</p>
+            <p class="muted">
+              as an outlet employee whose duties include serving customers, being a cashier, maintaining the cleanliness of the outlet, and supporting food production.
+            </p>
+          </article>
+
+          <article class="project-card" role="listitem">
+            <div class="project-top">
+              <span class="project-tag">Work - Full Time</span>
+              <span class="project-icon">
+                <img src="https://img.icons8.com/dusk/64/waiter.png" width="35" alt="Logo Work">
+              </span>
+            </div>
+            <h3>Le Ble Boulangerie Resto & Cafe</h3>
+            <p class="period">December 2024 - March 2025</p>
+            <p class="muted">
+              as a service team/waiter whose job is to taking orders, serve customers in a friendly manner and serve food and beverages for customers
+            </p>
+          </article>
+
+    </section>
+
+    <!-- Project
+    <section class="section alt" id="projects">
+      <div class="container">
+        <div class="section-title">
+          <h2>Project</h2>
+        </div>
+
+        <div class="projects-grid" role="list">
+          <article class="project-card" role="listitem">
+            <div class="project-top">
+              <span class="project-tag">Landing Page</span>
+              <span class="project-icon">🧱</span>
+            </div>
+            <h3>Project 1 — Startup Landing</h3>
+            <p class="muted">
+              Desain modern, CTA jelas, dan mobile-first.
+            </p>
+            <div class="project-actions">
+              <a href="#" class="btn small ghost">Demo</a>
+              <a href="#" class="btn small primary">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card" role="listitem">
+            <div class="project-top">
+              <span class="project-tag">Dashboard</span>
+              <span class="project-icon">📊</span>
+            </div>
+            <h3>Project 2 — Admin Dashboard</h3>
+            <p class="muted">
+              Komponen UI rapi dengan data visual sederhana.
+            </p>
+            <div class="project-actions">
+              <a href="#" class="btn small ghost">Demo</a>
+              <a href="#" class="btn small primary">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card" role="listitem">
+            <div class="project-top">
+              <span class="project-tag">E-commerce</span>
+              <span class="project-icon">🛒</span>
+            </div>
+            <h3>Project 3 — Toko Online</h3>
+            <p class="muted">
+              UI produk dan filter sederhana dengan JS.
+            </p>
+            <div class="project-actions">
+              <a href="#" class="btn small ghost">Demo</a>
+              <a href="#" class="btn small primary">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card" role="listitem">
+            <div class="project-top">
+              <span class="project-tag">Web App</span>
+              <span class="project-icon">🧠</span>
+            </div>
+            <h3>Project 4 — To-Do & Habit</h3>
+            <p class="muted">
+              Interaksi tombol, localStorage, dan validasi form.
+            </p>
+            <div class="project-actions">
+              <a href="#" class="btn small ghost">Demo</a>
+              <a href="#" class="btn small primary">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Here are the skills I have learned.</p>
+        </div>
+
+        <div class="card">
+          <div class="badge-grid">
+            <span class="skill-card"><img src="https://img.icons8.com/color/48/html-5--v1.png" width="25" alt="Logo HTML"> HTML</span>
+            <span class="skill-card"><img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-cascading-style-sheets-language-used-for-describing-the-presentation-of-a-document-logo-color-tal-revivo.png" width="25" alt="Logo CSS"> CSS</span>
+            <span class="skill-card"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/external-javascript-is-a-high-level-interpreted-programming-language-logo-shadow-tal-revivo.png" width="25" alt="Logo JavaScript"> JavaScript</span>
+            <span class="skill-card"><img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-hypertext-preprocessor-a-widely-used-open-source-general-purpose-scripting-language-logo-color-tal-revivo.png" width="25" alt="Logo PHP"> PHP</span>
+            <span class="skill-card"><img src="https://img.icons8.com/stickers/100/laravel.png" width="25" alt="Logo Laravel"> Laravel</span>
+            <span class="skill-card"><img src="https://img.icons8.com/dotty/80/api-settings.png" width="25" alt="Logo Rest Api"> Rest API</span>
+            <span class="skill-card"><img src="https://img.icons8.com/color/48/mysql-logo.png" width="25" alt="Logo MySQL"> MySQL</span>
+            <span class="skill-card"><img src="https://img.icons8.com/color/48/python--v1.png" width="25" alt="Logo Python"> Python</span>
+            <span class="skill-card"><img src="https://img.icons8.com/fluency/48/node-js.png" width="25" alt="Logo NodeJS"> NodeJS</span>
+            <span class="skill-card"><img src="https://img.icons8.com/color/48/office-365.png" width="25" alt="Logo Office"> Microsoft Office</span>
+            <span class="skill-card"><img src="https://img.icons8.com/fluency/48/ms-word.png" width="25" alt="Logo Word"> Microsoft Word</span>
+            <span class="skill-card"><img src="https://img.icons8.com/fluency/48/ms-excel.png" width="25" alt="Logo Excel"> Microsoft Excel</span>
+            <span class="skill-card"><img src="https://img.icons8.com/fluency/48/google-planet.png" width="25" alt="Logo Goggle Earth"> Google Earth</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section alt" id="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>you can contact me via</p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <h3>My Platforms</h3>
+            <ul class="list">
+               <span>
+                <a class="btn ghost" href="https://github.com/rafiandri"><img src="https://img.icons8.com/fluency/48/github.png" width="35%" alt="Logo GitHub"> rafiandri</a>
+              </span>
+
+              <span>
+                <p>
+                  <a class="btn ghost" href="https://www.instagram.com/rafiandrii"><img src="https://img.icons8.com/fluency/48/instagram-new.png" width="30%" alt="Logo Instagram">rafiandrii</a>
+                </p>
+              </span>
+              
+              <span>
+                <p>
+                  <a class="btn ghost" href="https://www.linkedin.com/in/rafie-andriansyah-7018a4315/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BOazOrqRERyiCEFgiKVw6Xg%3D%3D"><img src="https://img.icons8.com/color/48/linkedin.png" width="20%" alt="Logo Linkedin">Rafie Andriansyah</a>
+                </p>
+              </span>
+              
+              <span>
+                <p>
+                  <a class="btn ghost"><img src="https://img.icons8.com/color-glass/48/gmail.png" width="13%" alt="Logo Gmail"> rapietree17@gmail.com</a>
+                </p>
+              </span>
+              
+            </ul>
+          </div>
+        <div class="feed-container">
+    </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <p></p>
+        <!-- Post 1 -->
+        <div class="card">
+            <!-- Header Post -->
+            <header class="post-header">
+                <img src="image/ppig.jpeg" alt="Avatar" class="avatarig">
+                <div class="user-info">
+                    <h4 class="username">rafiandrii
+                      <p class="post-time">Surabaya City</p>
+                    </h4>
+                    
+                </div>
+            </header>
+
+            <!-- Konten Post -->
+            <div class="post-content">
+                <p>Driven by curiosity, fueled by innovation. Always exploring the next big thing in tech and watching how code and creativity shape the future. #TechEntusiast 🚀💻✨</p>
+            </div>
+
+            <!-- Gambar Post (Opsional) -->
+            <div class="post-image">
+                <div class="slider-otomatis">
+                    <div class="slide-track">
+                        <img src="image/gambar1.jpeg" alt="Gambar 1">
+                        <img src="image/gambar5.jpeg" alt="Gambar 2">
+                        <img src="image/gambar3.jpeg" alt="Gambar 3">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Baris Interaksi (Like/Comment Counter) -->
+            <div class="post-stats">
+                <span class="like-count">❤️ 106 Likes</span>
+                <span class="comment-count">💬 2 Comments</span>
+            </div>
+
+            <!-- Tombol Aksi -->
+            <div class="post-actions">
+                <button class="action-btn like-btn" onclick="toggleLike(this)">
+                    <i class="ri-heart-line"></i> <span>Like</span>
+                </button>
+                <button class="action-btn comment-btn">
+                    <i class="ri-chat-3-line"></i> <span>Comment</span>
+                </button>
+                <button class="action-btn share-btn">
+                    <i class="ri-share-forward-line"></i> <span>Share</span>
+                </button>
+            </div>
+
+            <!-- Seksi Komentar -->
+            <div class="comments-section">
+                <div class="comments-list">
+                    <div class="comment-item">
+                        <strong>IlhamGod</strong> <p class="chatcomt">GG bang orang tuamu pasti bangga 🔥</p>
+                    </div>
+                    <div class="comment-item">
+                        <strong>Ahmad_Kasim</strong> <p class="chatcomt">Keren bang, btw dah imo belum?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- <form class="card form" id="contactForm">
+            <h3>Kirim Pesan</h3>
+
+            <div class="field">
+              <label for="name">Nama</label>
+              <input id="name" name="name" type="text" placeholder="Masukkan nama" required />
+              <small class="error" id="nameError" aria-live="polite"></small>
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="contoh@email.com" required />
+              <small class="error" id="emailError" aria-live="polite"></small>
+            </div>
+
+            <div class="field">
+              <label for="message">Pesan</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tulis pesan..." required></textarea>
+              <small class="error" id="messageError" aria-live="polite"></small>
+            </div>
+
+            <button class="btn primary w100" type="submit">Kirim</button>
+            <p class="muted mt-12">
+              *Demo form: hasil dikirim ke UI (bukan backend).
+            </p>
+
+            <div class="toast" id="toast" role="status" aria-live="polite" hidden>
+              ✅ Terima kasih! Pesanmu sudah siap dikirim.
+            </div>
+          </form> -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Rafie Andriansyah. This website was created using HTML, CSS, and JS. ✨</p>
+      <a class="to-top" href="#home" aria-label="Kembali ke atas">↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
